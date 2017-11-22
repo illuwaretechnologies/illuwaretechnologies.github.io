@@ -55,7 +55,7 @@
 	background-color: #f0f1f3;
 }
 .popProd{
-	background-color: #fff;
+	
 	overflow: hidden !important;
 	border-radius: 3px;
 	margin-top: 27px;
@@ -132,6 +132,44 @@
 .accessories>div>p{
 	color: #9ba2af;
 }
+.innerSuggestion{
+	margin-bottom: 30px;
+	background-color: #fff;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 5px;
+}
+.outerBlogImg{
+	overflow: hidden;
+	margin-bottom: 30px;
+	background-color: rgba(0,0,0,0.4) !important;
+	border-radius: 5px;
+}
+.comment-form .form-group{
+	width: 85%;
+}
+
+.comment-form input[type="text"]{
+	width: 100%;
+}
+.comment-avatar img{
+	width: 40px;
+	margin-right: 5px;
+	padding-top: 30px;
+}
+.comment{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 3px;
+	margin: 5px 0;
+	overflow: auto;
+	width: 100%;
+}
+.comment-text{
+	padding-left: 60px;
+}
+
+
 @media(max-width:1000px)
 {
 	section{
@@ -169,6 +207,25 @@
 	.innerProdImg img{
 		height: 120px;
 		width: 150px;
+	}
+	.comment-form .form-group{
+		width: 85% !important;	
+	}
+	.customBtn{
+		
+		float: right;
+		margin-bottom: 50px;
+	}
+}
+@media(max-width:570px)
+{
+	.comment-form .form-group{
+		width: 84% !important;	
+	}
+	.customBtn{
+		margin-top: -52px !important;
+		float: right;
+		margin-bottom: 50px;
 	}
 }
 
