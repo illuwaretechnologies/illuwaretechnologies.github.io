@@ -13,6 +13,19 @@
  {
   margin-right: 0!important;
  }
+ #mainLogo{
+ 	height: 100px;
+    margin-top: -45px;
+    width: 150px;
+    margin-left: 30px;
+ }
+.modalDiv{
+	
+	width: 75%;
+	margin-top: 20px;
+	padding: 20px 5px 20px 5px;
+	border-radius: 3px;
+}
 .main-img{
 	width:100%;
 }
@@ -229,6 +242,9 @@
 		float: right;
 		margin-bottom: 50px;
 	}
+	#mainLogo{
+		margin-left: -20px;
+	}
 }
 @media(max-width:570px)
 {
@@ -240,6 +256,7 @@
 		float: right;
 		margin-bottom: 50px;
 	}
+	
 }
 
  /*
