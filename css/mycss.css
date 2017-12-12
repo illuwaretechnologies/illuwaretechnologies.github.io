@@ -20,6 +20,9 @@ body.modal-open {
 body.modal-open[style] {
     padding-right: 0px !important;
 }
+ul{
+	padding-left: 0px !important;
+}
 li{
 	list-style: none;
 }
@@ -226,6 +229,16 @@ li{
 .bottom-icon:hover{
 	background-color: #fff;
 	color: #18BC9C;
+}
+.target{
+	padding-top: 30px;
+}
+.target h5{
+	color: #CC6600;
+	font-weight: 500;
+}
+.target li{
+	margin-left: 15px;
 }
 .prod{
 	padding-top: 30px;
