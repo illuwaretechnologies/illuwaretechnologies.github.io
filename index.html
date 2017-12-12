@@ -43,11 +43,10 @@
           
           <ul class="nav navbar-nav navbar-right">
             
-            <li><a href="#about" class="slide-section">About</a></li>
+            <li><a href="#about" class="slide-section editNav">About</a></li>
             
-            <li><a href="#productSec" class="slide-section">Product</a></li>
-            <li><a href="#contact" class="slide-section">Contact</a></li>
-            <li><a href="#" style="color: #fff; background-color: #2469d9; box-shadow:  0 2px 4px 0 rgba(0, 0, 0, .23), inset 1px 1px 0 0 rgba(255, 255, 255, .2)"><i class="fa fa-shopping-cart" aria-hidden="true"> </i> Cart&nbsp<span style="background-color: #2455f4; padding: 1px 0px">&nbsp0&nbsp</span></a></li>
+            <li><a href="#productSec" class="slide-section editNav">Product</a></li>
+            <li><a href="#contact" class="slide-section editNav">Contact</a></li>
             
 
             
@@ -82,8 +81,8 @@
             <div class="row">
                 <div class="col-lg-10 col-md-10 col-lg-offset-2 col-md-offset-2 col-sm-12 col-sm-offset-0" >
                     <div class="col-md-10 text-center">
-                        <a href="product.html" style="text-decoration:none; color:#2C3E50" class="" data-toggle="modal" data-target="#myModal">
-                            <img src="img/m1.png" class="" alt="">
+                        <a href="product.html" style="text-decoration:none; color:#2C3E50" class="removeBord" data-toggle="modal" data-target="#myModal">
+                            <img src="img/m1.png" class="" alt="" border="0">
                             <span class="text-center" style="font-weight:500;font-size:1.25em">Product 1</span>
                         </a>
                     </div>
@@ -107,7 +106,7 @@
         <div class="modal-body">
           <!-- <p>Some text in the modal.</p> -->
           <div>
-              <img src="img/galaxy.png" style="height: 150px; margin-left: 20px; margin-bottom: 5px;" class="pull-left">
+              <img src="img/galaxy.png" class="pull-left" id="prodImg">
               
               <div class="modalDiv pull-right text-center">
                     This phone is classic having 2GB RAM, 4GHz Processor
@@ -119,7 +118,7 @@
         <div class="clearfix"></div>
         <div class="modal-footer">
           <a href="product.html" class="btn btn-primary pull-left">Read More..</a>
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-default" id="removeBack" data-dismiss="modal">Close</button>
         </div>
       </div>
       
@@ -269,7 +268,7 @@
 <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
 <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> -->
  <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script> 
-<script src="js/theme.js"></script>
+<!--<script src="js/theme.js"></script>-->
 <script type="text/javascript">
     $(document).ready(function(){
         $('.slide-section').click(function(e){

@@ -20,6 +20,9 @@ body.modal-open {
 body.modal-open[style] {
     padding-right: 0px !important;
 }
+li{
+	list-style: none;
+}
 
 .modal::-webkit-scrollbar {
     width: 0 !important; /*removes the scrollbar but still scrollable*/
@@ -40,6 +43,10 @@ body.modal-open[style] {
 	padding: 20px 5px 20px 5px;
 	border-radius: 3px;
 }
+.editNav{
+	font-size: large;
+	font-weight: 500;
+}
 .main-img{
 	width:100%;
 }
@@ -50,6 +57,14 @@ body.modal-open[style] {
 #products img{
 	padding-top: 10px;
 	height:120px;
+}
+#prodImg{
+	height: 150px; 
+	margin-left: 20px; 
+	margin-bottom: 5px;
+}
+.removeBord:visited{
+	
 }
 .small-text{
 	font-size: 20px;
@@ -77,6 +92,10 @@ body.modal-open[style] {
 	box-sizing: border-box;
 	padding: 3px;
 	border-radius: 2px;
+}
+.review{
+	color: #9ba2af;
+	font-size: inherit;
 }
 #mainSection{
 	background-color: #f0f1f3;
@@ -207,6 +226,27 @@ body.modal-open[style] {
 .bottom-icon:hover{
 	background-color: #fff;
 	color: #18BC9C;
+}
+.prod{
+	padding-top: 30px;
+}
+.prod h5{
+	color: #CC6600;
+	font-weight: 500;
+}
+.prod p{
+	font-size: inherit;
+}
+.feedback p{
+	font-size: inherit;
+}
+.questions h4{
+	color: #CC6600;
+	margin-bottom: 20px;
+	font-weight: 500;
+}
+.commentAns{
+	font-size: inherit;
 }
 
 
