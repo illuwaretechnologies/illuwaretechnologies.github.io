@@ -61,6 +61,19 @@ li{
 	padding-top: 10px;
 	height:120px;
 }
+.features{
+	margin-bottom: 40px;
+	background-color: #e6e6e6;
+	border-radius: 5px;
+}
+.features>div>ul>li{
+	font-size: inherit;
+}
+.colorPur{
+}
+.colorPur>h5{
+	color: #CC6600;
+}
 #prodImg{
 	height: 150px; 
 	margin-left: 20px; 

@@ -76,13 +76,13 @@
         </div>
     </section>
 
-    <section id="productSec">
+    <!--<section id="productSec">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-md-10 col-lg-offset-2 col-md-offset-2 col-sm-12 col-sm-offset-0" >
                     <div class="col-md-10 text-center">
                         <a href="product.html" style="text-decoration:none; color:#2C3E50" class="removeBord" data-toggle="modal" data-target="#myModal">
-                            <img src="img/m1.png" class="" alt="" border="0">
+                            <img src="img/m1.png" class="" alt="image" style="border: 0;outline: 0;">
                             <span class="text-center" style="font-weight:500;font-size:1.25em">Product 1</span>
                         </a>
                     </div>
@@ -90,7 +90,161 @@
             </div>
             
         </div>
+    </section> -->
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">
+                    
+                        <div data-toggle="tooltip" title="Click to know more information!"><img class="main-img" src="img/s53.png" data-toggle="modal" data-target="#myModal" style="cursor: pointer;margin-bottom: 20px;margin-top: 10px;"></div>
+
+                        <div class="colorPur" style="">
+                            <table class="table">
+                          <thead class="thead-inverse">
+                            <tr>
+                              <th>Target Customers</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                <td>General Purpose(Homes,<br>Hotels,Restaurants)</td>
+                                
+                                
+                            </tr>
+                            <tr>
+                                <td>EDC Users</td>
+                                
+                                
+                                
+                            </tr>
+                            <tr>
+                                <td>Security Agencies</td>
+                                
+                                
+                            </tr>
+                            <tr>
+                                <td>Millitary</td>
+                                
+                                
+                            </tr>
+                            <tr>
+                                <td>Hikers</td>
+                                
+                                
+                            </tr>
+                            
+                          </tbody>
+                        </table>
+                        </div>
+                    
+                </div>
+                <div class="col-md-offset-1 col-md-8">
+                    
+                	<div class="prod">
+                		<h5>Product Description</h5>
+                		<p>Best ever torch you would have used in your lifetime. Just Buy right from us. </p><br>
+
+
+                		<!--<div class="row features">
+                			<div class="col-md-4">
+                				<h5>Basic Features</h5>
+                				<ul>
+	                            <li>GPS Enabled</li>
+	                            <li>Menual Alert</li>
+	                            <li>Menual Control of Intensity</li>
+	                            <li>Paper Display(Status)*/LCD with backlight</li>
+	                            <li>WIFI Connectivity/Sim Enabled</li>
+	                            <li>Rechargeable Batteries</li>
+	                            <li>Impact-Resistant Body</li>
+	                          </ul>
+                			</div>
+                			<div class="col-md-4 colorPur">
+                				<h5>Augmented Features</h5>
+                				<ul>
+		                            <li>Basic Features</li>
+		                            <li>HD Camera for Surveillance</li>
+		                            <li>Live Broadcast</li>
+		                            <li>Miscellaneous Functions</li>
+		                          </ul>
+                			</div>
+                			<div class="col-md-4 ">
+                				<h5>Potential Features</h5>
+                				<ul>
+		                            <li>Augmented Features</li>
+		                            <li>Heartbeat Sensors</li>
+		                            <li>Steps Monitor</li>
+		                            <li>Intelligent Lightening (Intensity Control)</li>
+		                            <li>Water-Proof,Dust-Proof</li>
+		                            <li>Night Vision Camera</li>
+		                          </ul>
+                			</div>	
+                		</div>-->
+                        <table class="table">
+                          <thead class="thead-inverse">
+                            <tr>
+                              <th>Basic Features</th>
+                              <th>Augmented Features</th>
+                              <th>Potential Features</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                <td>GPS Enabled</td>
+                                <td>Basic Features</td>
+                                <td>Augmented Features</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Menual Alert</td>
+                                <td>HD Camera for Surveillance</td>
+                                <td>Heartbeat Sensors</td>
+                                
+                                
+                            </tr>
+                            <tr>
+                                <td>Menual Control of Intensity</td>
+                                <td>Live Broadcast</td>
+                                <td>Intelligent Lightening (Intensity<br> Control)</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Paper Display(Status)*/<br>LCD with backlight</td>
+                                <td>Miscellaneous Functions</td>
+                                <td>Water-Proof,Dust-Proof</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>WIFI Connectivity/Sim Enabled</td>
+                                <td></td>
+                                <td>Night Vision Camera</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Rechargeable Batteries</td>
+                                <td></td>
+                                <td>Steps Monitor</td>
+                                
+                            </tr>
+                            <tr>
+                                <td>Impact-Resistant Body</td>
+                                <td></td>
+                                <td></td>
+                                
+                            </tr>
+                            
+                          </tbody>
+                        </table>
+
+                
+              		</div>
+
+                </div>
+            </div>
+        </div>
     </section>
+
+    <div>
 
     <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -278,6 +432,10 @@
             });
             e.preventDefault();
         });
+    });
+
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip(); 
     });
 </script>
 
