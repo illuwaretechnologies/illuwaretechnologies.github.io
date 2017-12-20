@@ -17,6 +17,7 @@
     <!-- Theme CSS -->
     <link href="css/mycss.css" rel="stylesheet">
 	<link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.css">
 	
     <!-- Custom Fonts -->
     <link href="extras/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -92,94 +93,53 @@
         </div>
     </section> -->
 
-    <section>
+    <section id="productSec">
         <div class="container">
             <div class="row">
-                <div class="col-md-3" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">
+                <div class="col-md-3 imgDiv">
                     
-                        <div data-toggle="tooltip" title="Click to know more information!"><img class="main-img" src="img/s53.png" data-toggle="modal" data-target="#myModal" style="cursor: pointer;margin-bottom: 20px;margin-top: 10px;"></div>
+                        <img class="main-img" src="img/light3.jpg" data-toggle="modal" data-target="#myModal">
+                        <div class="ratings">
+                            <p class="pull-right review">15-Reviews</p>
 
-                        <div class="colorPur" style="">
-                            <table class="table">
-                          <thead class="thead-inverse">
-                            <tr>
-                              <th>Target Customers</th>
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                                <td>General Purpose(Homes,<br>Hotels,Restaurants)</td>
-                                
-                                
-                            </tr>
-                            <tr>
-                                <td>EDC Users</td>
-                                
-                                
-                                
-                            </tr>
-                            <tr>
-                                <td>Security Agencies</td>
-                                
-                                
-                            </tr>
-                            <tr>
-                                <td>Millitary</td>
-                                
-                                
-                            </tr>
-                            <tr>
-                                <td>Hikers</td>
-                                
-                                
-                            </tr>
-                            
-                          </tbody>
-                        </table>
+                            <span class="rating1">3.7 <span class="glyphicon glyphicon-star editStar"></span>
+                            </span>
                         </div>
+                        <div class="clearfix"></div>
                     
                 </div>
                 <div class="col-md-offset-1 col-md-8">
                     
                 	<div class="prod">
+                        <h2 class="product-name">SOB TORCH</h2>
+                        <div class="price">$699.99</div>
+                        <hr>
+                        
                 		<h5>Product Description</h5>
-                		<p>Best ever torch you would have used in your lifetime. Just Buy right from us. </p><br>
-
-
-                		<!--<div class="row features">
-                			<div class="col-md-4">
-                				<h5>Basic Features</h5>
-                				<ul>
-	                            <li>GPS Enabled</li>
-	                            <li>Menual Alert</li>
-	                            <li>Menual Control of Intensity</li>
-	                            <li>Paper Display(Status)*/LCD with backlight</li>
-	                            <li>WIFI Connectivity/Sim Enabled</li>
-	                            <li>Rechargeable Batteries</li>
-	                            <li>Impact-Resistant Body</li>
-	                          </ul>
-                			</div>
-                			<div class="col-md-4 colorPur">
-                				<h5>Augmented Features</h5>
-                				<ul>
-		                            <li>Basic Features</li>
-		                            <li>HD Camera for Surveillance</li>
-		                            <li>Live Broadcast</li>
-		                            <li>Miscellaneous Functions</li>
-		                          </ul>
-                			</div>
-                			<div class="col-md-4 ">
-                				<h5>Potential Features</h5>
-                				<ul>
-		                            <li>Augmented Features</li>
-		                            <li>Heartbeat Sensors</li>
-		                            <li>Steps Monitor</li>
-		                            <li>Intelligent Lightening (Intensity Control)</li>
-		                            <li>Water-Proof,Dust-Proof</li>
-		                            <li>Night Vision Camera</li>
-		                          </ul>
-                			</div>	
-                		</div>-->
+                		<p>Best ever torch you would have used in your lifetime. Just Buy right from us. </p><hr>
+                        <div class="row">
+                            <div class="col-md-2 diffAngle">
+                                <div><a href="img/light3.jpg" data-lightbox="gallery" data-title=""><img src="img/light3.jpg" class="img-thumbnail"></a></div>
+                                <div><a href="img/light3.jpg" data-lightbox="gallery" data-title=""><img src="img/light3.jpg" class="img-thumbnail"></a></div>
+                                <div><a href="img/light3.jpg" data-lightbox="gallery" data-title=""><img src="img/light3.jpg" class="img-thumbnail"></a></div>
+                                <div><a href="img/light3.jpg" data-lightbox="gallery" data-title=""><img src="img/light3.jpg" class="img-thumbnail"></a></div>
+                                
+                            </div>
+                            <div class="col-md-10 target">
+                                
+                                <h5>Target Customers</h5>
+                                <ul>
+                                  <li>General Purpose(Homes,Hotels,Restaurants)</li>
+                                  <li>EDC Users</li>
+                                  <li>Security Agencies</li>
+                                  <li>Millitary</li>
+                                  <li>Hikers, Campers</li>
+                                </ul>
+              
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <hr style="margin-top: 15px;">
                         <table class="table">
                           <thead class="thead-inverse">
                             <tr>
@@ -247,10 +207,10 @@
     <div>
 
     <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <!--<div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
-      <!-- Modal content-->
+       Modal content
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -258,7 +218,6 @@
 
         </div>
         <div class="modal-body">
-          <!-- <p>Some text in the modal.</p> -->
           <div>
               <img src="img/galaxy.png" class="pull-left" id="prodImg">
               
@@ -277,7 +236,7 @@
       </div>
       
     </div>
-  </div>
+  </div> -->
 
     
     <!-- About Section -->
@@ -421,7 +380,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
 <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> -->
- <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script> 
+ <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
+ <script src="js/lightbox.js"></script> 
 <!--<script src="js/theme.js"></script>-->
 <script type="text/javascript">
     $(document).ready(function(){

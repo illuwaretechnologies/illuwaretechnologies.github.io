@@ -53,6 +53,36 @@ li{
 .main-img{
 	width:100%;
 }
+.imgDiv{
+		 
+	z-index: 1;
+	margin-top: 25px;
+    box-shadow: none;
+    transition: box-shadow 1500ms;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+.imgDiv:hover{
+	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
+}
+.imgDiv>img{
+	
+	margin-bottom: 20px;
+	z-index: 0;
+	height: 250px;
+}
+
+.diffAngle>div{
+	
+	height: 50px;
+	width: 50px;
+	margin-top: 7px;
+}
+.diffAngle>div>img{
+	height: 50px;
+	width: 50px;
+}
 .product-name{
 	font-weight: 400;
     font-size: 40px;
