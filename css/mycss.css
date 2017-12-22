@@ -57,10 +57,8 @@ li{
 		 
 	z-index: 1;
 	margin-top: 25px;
-    box-shadow: none;
-    transition: box-shadow 1500ms;
-    border: 1px solid #eee;
     border-radius: 5px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .imgDiv:hover{
@@ -291,7 +289,7 @@ li{
 	font-weight: 500;
 }
 .target li{
-	margin-left: 15px;
+	
 }
 .prod{
 	padding-top: 50px;
