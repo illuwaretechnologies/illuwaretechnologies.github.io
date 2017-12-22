@@ -83,6 +83,10 @@ li{
 	height: 50px;
 	width: 50px;
 }
+.prodDiff>div{
+	float: left;
+	margin-left: 12px;
+}
 .product-name{
 	font-weight: 400;
     font-size: 40px;
@@ -109,6 +113,9 @@ li{
 	margin-left: 20px; 
 	margin-bottom: 5px;
 }
+.prodTable>tbody>tr>td>img{
+	margin-left: 20px;
+}
 .removeBord:visited{
 	
 }
@@ -126,6 +133,9 @@ li{
 .suggestion>p{
 	text-align: center;
 	line-height: 0.9;
+}
+.progress>div{
+	color: #ffff00;
 }
 .thumbnail{
 	background-color: #dbdbdb;
@@ -284,7 +294,7 @@ li{
 	margin-left: 15px;
 }
 .prod{
-	padding-top: 30px;
+	padding-top: 50px;
 }
 .prod h5{
 	color: #CC6600;
