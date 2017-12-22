@@ -51,24 +51,22 @@ li{
 	font-weight: 500;
 }
 .main-img{
-	width:100%;
+	
 }
 .imgDiv{
-		 
+	box-sizing: border-box; 
 	z-index: 1;
 	margin-top: 25px;
     border-radius: 5px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
-.imgDiv:hover{
-	box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)
-}
 .imgDiv>img{
-	
+	width: 250px;
 	margin-bottom: 20px;
 	z-index: 0;
-	height: 250px;
+}
+.imgDiv table{
+	width: 100%;
 }
 
 .diffAngle>div{
@@ -80,6 +78,9 @@ li{
 .diffAngle>div>img{
 	height: 50px;
 	width: 50px;
+}
+.prodDiff{
+	overflow: hidden;
 }
 .prodDiff>div{
 	float: left;
@@ -313,6 +314,20 @@ li{
 	font-size: inherit;
 }
 
+@media(max-width:1200px)
+{
+	
+	/*.imgDiv{
+		padding-right: 30px !important;
+	}*/
+	.imgDiv>img{
+		width: 200px !important;
+	}
+	/*.imgDiv table{
+		width: 200px !important;
+		margin-right: 20px;
+	}*/
+}
 
 @media(max-width:1000px)
 {
