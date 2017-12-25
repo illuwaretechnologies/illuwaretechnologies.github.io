@@ -434,7 +434,6 @@ font-size:1rem;
 .listEdit:hover{
 	color: #fff;
     background-color: #373a3c;
-    border-radius: 5px;
 }
 .progress{
 	background-color: rgba(0,0,0,0.1);
