@@ -4,12 +4,14 @@
   <title>Bootstrap Example</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <link href="css/mycss.css" rel="stylesheet">
+   
 	<link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/lightbox.css">
+    <link href="css/mycss.css" rel="stylesheet">
   <link href="extras/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
   </head>
 <body>
  <nav class="navbar navbar-fixed-top navbar-inverse" style="background-color:#2C3E50;" id="nav">
@@ -23,21 +25,27 @@
       </div>
     </nav>
    <section id="portfolio">
+    <div class="container"><h1 class="product-name">RANDOM TORCH</h1>
+                  
+                  <hr></div>
 <div class="container">
   
    <div class="col-lg-3 imgDiv nav-tabs">
 						<a href="#Default">
-                        <img class="img-fluid main-img active" src="img/light3.jpg" data-toggle="modal" data-target="#myModal"></a>
+                        <img class="img-fluid main-img active" src="img/light3.jpg"></a>
+
+
+                        
                         <hr>
                         
-                            <ul class="table table-hover " style="margin-left: -6px;" id="thistable1">
+                            <ul class="table table-hover" style="margin-left: -6px;" id="thistable1">
                               
-                                <a href="#target">Target Customers</a><br>
-                                <a href="#proinfo">Product Information</a><br>
-                                <a href="#gallery">Picture Gallery</a><br>
-                                <a href="#rating">Reviews and Ratings</a><br>
-                                <a href="#faq">Frequently Asked Questions</a><br>
-                                <a href="#buy">Buy Now</a><br>
+                                <a href="#target"><p class="listEdit">Target Customers</p></a>
+                                <a href="#proinfo"><p class="listEdit">Product Information</p></a>
+                                <a href="#gallery"><p class="listEdit">Picture Gallery</p></a>
+                                <a href="#rating"><p class="listEdit">Reviews and Ratings</p></a>
+                                <a href="#faq"><p class="listEdit">Frequently Asked Questions</p></a>
+                                <a href="#buy"><p class="listEdit">Buy Now</p></a>
                                 
                             </ul>
                                 
@@ -76,7 +84,10 @@
                         
                         
                     
-                </div>
+  </div>
+  <div class="col-lg-1">
+    
+  </div>
   
   
   
@@ -84,15 +95,13 @@
   
   
   <div class="tab-content">
-    <div id="Default" class="col-lg-9 tab-pane fade in active">
-       <h2 class="product-name">SOB TORCH</h2>
-                  
-                  <hr>
+    <div id="Default" class="col-lg-8  tab-pane fade in active">
+       
 
-                  <h5 style="color: #CC6600;">Product Description</h5>
+                  <h4 style="color: #CC6600;">Product Description</h4><br>
                   <p style="font-size: inherit;">Best ever torch you would have used in your lifetime. Just Buy right from us. </p>
 				  
-				  <table class="table table-hover">
+				                <table class="table table-hover">
                           <thead class="thead-inverse">
                             <tr>
                               <th>Basic Features</th>
@@ -152,26 +161,82 @@
 				  
                   
     </div>
-    <div id="target" class="tab-pane fade">
-      <div class="target" style="margin-top: -15px;">
-	  <h2 class="product-name">SOB TORCH</h2>
-                  
-                  <hr>
-                    <h5>Target Customers</h5>
-                    <ul>
+    <div id="target" class="tab-pane fade col-lg-8">
+      <div class="target" style="">
+	     
+                    <h4 style="color: #CC6600;"><b>Target Customers</b></h4>
+                    <br>
+                    <div class="row tcdiv">
+                      <div class="col-sm-4">
+                        <div class="innertc" style="background-image: url('img/blog1.jpg'); 
+                          background-repeat: no-repeat;
+                          background-size: 100%; 
+                          height: 150px;">
+                          <div class="intc"></div>
+                        </div>
+                        <p style="font-weight: inherit;">General Purpose<br>(Homes,Hotels,etc)<p>
+                      </div> 
+                      <div class="col-sm-4">
+                        <div class="innertc" style="background-image: url('img/blog1.jpg'); 
+                          background-repeat: no-repeat;
+                          background-size: 100%; 
+                          height: 150px;">
+                          <div class="intc"></div>
+                        </div>
+                        <p>EDC Users</p>
+                      </div> 
+                      <div class="col-sm-4">
+                        <div class="innertc" style="background-image: url('img/blog1.jpg'); 
+                          background-repeat: no-repeat;
+                          background-size: 100%; 
+                          height: 150px;">
+                          <div class="intc"></div>
+                        </div>
+                        <p>Security Agencies</p>
+                      </div>  
+                    </div>
+                    <div class="row tcdiv">
+                      <div class="col-sm-2">
+                        
+                      </div>
+                      <div class="col-sm-4">
+                        <div class="innertc" style="background-image: url('img/blog1.jpg'); 
+                          background-repeat: no-repeat;
+                          background-size: 100%; 
+                          height: 150px;">
+                          <div class="intc"></div>
+                        </div>
+                        <p>Millitary</p>
+                      </div> 
+                      <div class="col-sm-4">
+                        <div class="innertc" style="background-image: url('img/blog1.jpg'); 
+                          background-repeat: no-repeat;
+                          background-size: 100%; 
+                          height: 150px;">
+                          <div class="intc"></div>
+                        </div>
+                        <p>Hikers, Campers</p>
+                      </div> 
+                      <div class="col-sm-2">
+                        
+                      </div>
+                       
+                    </div>
+                    <!-- <ul>
                       <li>General Purpose(Homes,Hotels,Restaurants)</li>
                       <li>EDC Users</li>
                       <li>Security Agencies</li>
                       <li>Millitary</li>
                       <li>Hikers, Campers</li>
-                    </ul>
+                    </ul> -->
                   </div>
     </div>
-    <div id="proinfo" class="col-lg-9 tab-pane fade">
-      <h5 style="color: #CC6600;">Product Information</h5>
-	  <h2 class="product-name">SOB TORCH</h2>
+    <div id="proinfo" class="col-lg-8 tab-pane fade">
+      
+      <h4 style="color: #CC6600;"><b>Product Information</b></h4><br>
+	     
                   
-                  <hr>
+                  
                 <table class="table table-striped">
                   <thead>
                     <tr>
@@ -198,18 +263,16 @@
                 </table>
 
     </div>
-    <div id="rating" class="col-lg-9 tab-pane fade">
-	<h2 class="product-name">SOB TORCH</h2>
-                  
-                  <hr>
-   <div class="prod">
+    <div id="rating" class="col-lg-8 tab-pane fade">
+	     
+              <div class="prod">
                 
                 
 
-                <h5 style="color: #CC6600; margin-bottom: 20px;">Customer Reviews</h5>
+                <h4 style="color: #CC6600;"><b>Customer Reviews</b></h4><br>
                    <div class="row">
-                     <div class="col-lg-1">5 <i class="fa fa-star" aria-hidden="true"></i></div>
-                     <div class="col-lg-6">
+                     <div class="col-xs-2 stars"><span class="pull-right rating2">5 <i class="fa fa-star" aria-hidden="true"></i></span><div class="clearfix"></div></div>
+                     <div class="col-xs-10">
                        <div class="progress">
                           <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 50%;" >
                           </div>
@@ -217,8 +280,8 @@
                       </div>
                     </div>
                     <div class="row">
-                     <div class="col-lg-1">4 <i class="fa fa-star" aria-hidden="true"></i></div>
-                     <div class="col-lg-6">
+                     <div class="col-xs-2 stars"><span class="pull-right rating2">4 <i class="fa fa-star" aria-hidden="true"></i></span><div class="clearfix"></div></div>
+                     <div class="col-xs-10">
                        <div class="progress">
                           <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 20%;" >
                           </div>
@@ -226,8 +289,8 @@
                       </div>
                     </div>
                     <div class="row">
-                     <div class="col-lg-1">3 <i class="fa fa-star" aria-hidden="true"></i></div>
-                     <div class="col-lg-6">
+                     <div class="col-xs-2 stars"><span class="pull-right rating2">3 <i class="fa fa-star" aria-hidden="true"></i></span><div class="clearfix"></div></div>
+                     <div class="col-xs-10">
                        <div class="progress">
                           <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 20%;" >
                           </div>
@@ -235,8 +298,8 @@
                       </div>
                     </div>
                     <div class="row">
-                     <div class="col-lg-1">2 <i class="fa fa-star" aria-hidden="true"></i></div>
-                     <div class="col-lg-6">
+                     <div class="col-xs-2 stars"><span class="pull-right rating2">2 <i class="fa fa-star" aria-hidden="true"></i></span><div class="clearfix"></div></div>
+                     <div class="col-xs-10">
                        <div class="progress">
                           <div class="progress-bar progress-bar-striped bg-warning"" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 0%;" >
                           </div>
@@ -244,29 +307,27 @@
                       </div>
                     </div>
                     <div class="row">
-                     <div class="col-lg-1">1 <i class="fa fa-star" aria-hidden="true"></i></div>
-                     <div class="col-lg-6">
+                     <div class="col-xs-2 stars"><span class="pull-right rating2">1 <i class="fa fa-star" aria-hidden="true"></i></span><div class="clearfix"></div></div>
+                     <div class="col-xs-10">
                        <div class="progress">
                           <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="min-width: 2em; width: 10%;" >
                           </div>
                         </div>
                       </div>
                     </div>
-                    <div class="row"><div class="col-lg-7"><button class="btn btn-warning pull-right">Write a Product Review</button></div></div>
+                    <div class="row"><div class="col-lg-12"><button class="btn btn-warning pull-right">Write a Product Review</button></div></div>
                     <div class="clearfix"></div>
                 
               </div>   
 
 	  </div>
-	   <div id="faq" class="tab-pane fade">
-		<h2 class="product-name">SOB TORCH</h2>
-                  
-                  <hr>
+	   <div id="faq" class="tab-pane fade col-lg-8">
+		  
 				  
 				  
-				  <div class=" col-lg-9 questions">
-                        <h4>Customer questions & answers</h4>
-                        <div class="comment-form" style="margin-bottom: 10px;">
+				  <div class="questions">
+                        <h4><b>Customer questions & answers</b></h4>
+                        <div class="comment-form" style="">
 
                           <form class="form-inline">
                             <div class="form-group">
@@ -310,11 +371,9 @@
                       </div>
 		</div>
 		
-		<div id="gallery" class="tab-pane fade">
-	<h2 class="product-name">SOB TORCH</h2>
-                  
-                  <hr>
-				   <div class="diffAngle prodDiff">
+		 <div id="gallery" class="col-lg-8 tab-pane fade">
+	       
+                  <div class="diffAngle prodDiff">
                       <div class=""><a href="img/light3.jpg" data-lightbox="gallery" data-title=""><img src="img/light3.jpg" class="img-thumbnail"></a></div>
                       <div class=""><a href="img/light3.jpg" data-lightbox="gallery" data-title=""><img src="img/light3.jpg" class="img-thumbnail"></a></div>
                       <div class=""><a href="img/light3.jpg" data-lightbox="gallery" data-title=""><img src="img/light3.jpg" class="img-thumbnail"></a></div>
@@ -322,15 +381,14 @@
                          
                   </div>
                   <div class="clearfix"></div>
+				   
                   
 				  
-				  </div>
+			</div> 
 		
 		
-		<div id="buy" class="col-lg-9 tab-pane fade">
-	<h2 class="product-name">SOB TORCH</h2>
-                  
-                  <hr>
+		<div id="buy" class="col-lg-8 tab-pane fade">
+	   
 		<table class="table prodTable">
                           <thead class="thead-inverse">
                             <tr>
@@ -371,7 +429,7 @@
                                 
                             </tr>
                             <tr>
-                                <td>WIFI Connectivity/Sim Enabled</td>
+                                <td>WIFI Connectivity/<br>Sim Enabled</td>
                                 <td class=""><img src="img/check.png"></td>
                                 <td class=""><img src="img/check.png"></td>
                                 <td class=""><img src="img/check.png"></td>
@@ -392,7 +450,7 @@
                                 
                             </tr>
                             <tr>
-                                <td>HD Camera for Surveillance</td>
+                                <td>HD Camera for<br>Surveillance</td>
                                 <td class=""><img src="img/cancel.png"></td>
                                 <td class=""><img src="img/check.png"></td>
                                 <td class=""><img src="img/check.png"></td>
@@ -427,7 +485,7 @@
                                 
                             </tr>
                             <tr>
-                                <td>Intelligent Lightening (Intensity<br> Control)</td>
+                                <td>Intelligent Lightening (Int-<br>ensity Control)</td>
                                 <td class=""><img src="img/cancel.png"></td>
                                 <td class=""><img src="img/cancel.png"></td>
                                 <td class=""><img src="img/check.png"></td>

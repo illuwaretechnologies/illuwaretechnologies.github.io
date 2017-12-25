@@ -61,7 +61,7 @@ li{
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .imgDiv>img{
-	width: 250px;
+	width: 200px;
 	margin-bottom: 20px;
 	z-index: 0;
 }
@@ -84,11 +84,11 @@ li{
 }
 .prodDiff>div{
 	float: left;
-	margin-left: 12px;
+	margin-left: 10px;
 }
 .product-name{
-	font-weight: 400;
-    font-size: 40px;
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #18BC9C;
 }
 #products img{
 	padding-top: 10px;
@@ -283,7 +283,7 @@ li{
 	color: #18BC9C;
 }
 .target{
-	padding-top: 30px;
+	
 }
 .target h5{
 	color: #CC6600;
@@ -293,7 +293,7 @@ li{
 	
 }
 .prod{
-	padding-top: 50px;
+	
 }
 .prod h5{
 	color: #CC6600;
@@ -349,6 +349,14 @@ li{
 	.innerProdText{
 		padding-top: 40px;
 	}
+	.imgDiv{
+		text-align: center;
+	}
+	.main-img{
+		width: 50%;
+	}
+	.imgDiv>ul{
+	}
 
 }
 @media(max-width:768px)
@@ -377,6 +385,10 @@ li{
 	}
 	#mainLogo{
 		margin-left: -20px;
+	}
+	.main-img{
+		margin-left: -5px;
+		width: 70%;
 	}
 }
 @media(max-width:570px)
@@ -410,4 +422,45 @@ font-size:1rem;
 #thistable tr:hover{
     color: #fff;
     background-color: #373a3c
+}
+.tab-pane{
+	padding-top: 30px;
+}
+.listEdit{
+	color: #000000;
+	text-align: center;
+	padding-bottom: 2px;
+}
+.listEdit:hover{
+	color: #fff;
+    background-color: #373a3c;
+    border-radius: 5px;
+}
+.progress{
+	background-color: rgba(0,0,0,0.1);
+	height: 25px;
+	border-radius: 4px;
+}
+.progress-bar{
+	height: 100%;
+	border-radius: 4px;
+}
+.prod>div{
+	margin-bottom: 20px;
+}
+.stars{
+	font-weight: bold;
+}
+.tcdiv{
+	padding-top: 20px;
+}
+.innertc{
+	
+}
+.innertc>div{
+	background-color: rgba(0,0,0,0.3); 
+	height: 143px;
+}
+.intc:hover{
+	background-color: rgba(0,0,0,0);
 }
