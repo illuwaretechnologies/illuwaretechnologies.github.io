@@ -414,6 +414,9 @@ li{
 	.popProd{
 		margin-left: 0%;
 	}
+	.slide{
+		height: 300px !important;
+	}
 }
 @media(max-width:570px)
 {
@@ -446,6 +449,12 @@ li{
 	}
 	.accessories>div{
 		width: 50%;
+	}
+}
+@media(max-width:500px)
+{
+	.slide{
+		height: 250px !important;
 	}
 }
 
@@ -514,8 +523,8 @@ font-size:1rem;
     background-size: 100%;
 }
 
-.slide{padding:300px 0px; width:100%;}
+.slide{padding:100px 0px; height: 400px;box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);}
 
-.slide1{background-image: url('../img/light1.png');background-size: 100%;background-repeat: no-repeat;}
-.slide2{background-image: url('../img/light.png');background-size: 100%;background-repeat: no-repeat;}
-.slide3{background-image: url('../img/light3.jpg');background-size: 100%;background-repeat: no-repeat;}
+.slide1{background-image: url('../img/final5.jpg');background-size: 100%;background-repeat: no-repeat;}
+.slide2{background-image: url('../img/final9.jpg');background-size: 100%;background-repeat: no-repeat;}
+.slide3{background-image: url('../img/final3.jpg');background-size: 100%;background-repeat: no-repeat;}
