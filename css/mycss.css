@@ -60,8 +60,14 @@ li{
 	background-size: cover;
 	color: #fff;
 	text-align: center;
-	padding-top: 180px;
+	padding-top: 210px;
 	padding-bottom: 110px;
+	z-index: -1;
+	position: relative;
+}
+#productSec{
+	z-index:1;
+	background-color: #fff;
 }
 .imgDiv{
 	box-sizing: border-box; 

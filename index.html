@@ -80,11 +80,12 @@
 
     <section id="portfolio">
         <div class="container">
-            <span class="text1" style="font-family:Montserrat,Helvetica,Arial,sans-serif;text-transform:uppercase;font-size:2.75em">
-                    Illuminating your lives through creative innovations.<br>
+            <span class="text1" style="font-family:Montserrat,Helvetica,Arial,sans-serif;font-size:2.75em">ILLUMINATING YOUR LIVES THROUGH CREATIVE INNOVATIONS.
+
+                    <br>
             </span><br>
-            <span class="text2" style="font-weight:300;font-size:1.75em"> 
-                Introducing the “Smart Torch: The smartest torch there is and ever will be”
+            <span class="text2" style="font-weight:300;font-size:1.75em ;margin-top:20px;"> 
+                
             </span>
         </div>
     </section>
@@ -780,6 +781,7 @@
 <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script> -->
  <script src="https://npmcdn.com/bootstrap@4.0.0-alpha.5/dist/js/bootstrap.min.js"></script>
  <script src="js/lightbox.js"></script> 
+ <script src="js/typed.js"></script>
 <!--<script src="js/theme.js"></script>-->
 <script type="text/javascript">
     $(document).ready(function(){
@@ -831,12 +833,12 @@ function autoMove()
     }
 }
 </script>
-<script>
+<!-- <script>
     $(document).ready(function() {
       $('.text1').hide().delay(1500).fadeIn(3000);
 		        $('.text2').hide().delay(2500).fadeIn(2500);
 });
-    </script>
+    </script> -->
 <script>
 	      
 	$(function() {
@@ -849,15 +851,58 @@ function autoMove()
   }, 7000);
 });	      
 		      
+</script>
 		      
-						 </script>
-		      
-		      <script>
+<script>
    $('.imgDiv a').click(function (e) {
      e.preventDefault()
      $(this).tab('show')
    })
 </script>
+<script>
+    var ypos,image;
+    function parallex(){
+        ypos = window.pageYOffset;
+        image = document.getElementById('portfolio');
+        image.style.top = ypos * .5 +'px';
+    }
+    window.addEventListener('scroll',parallex);
+</script>
+ <!-- <script type="text/javascript">
+    var typed = new Typed('.text1', {
+        strings: ["First sentence.", "Illuminating your lives through creative innovations."],
+        typeSpeed: 40
+    });
+</script>  --> 
+<!-- <script type="text/javascript">
+    var typed5 = new Typed('.text1', {
+    strings: ['ashish', '2 Some <strong>HTML</strong>', '3 Chars &times; &copy;'],
+    typeSpeed: 0,
+    backSpeed: 0,
+    cursorChar: '_',
+    shuffle: true,
+    smartBackspace: false,
+    loop: true
+  });
+</script> -->
+<!-- <script type="text/javascript">
+    var typed3 = new Typed('.text1', {
+    strings: ['ashish','asshi'],
+    typeSpeed: 0,
+    backSpeed: 0,
+    smartBackspace: true, // this is a default
+    loop: true
+  });
+</script> -->
+<script type="text/javascript">
+    var typed6 = new Typed('.text2', {
+    strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`','Introducing the “Smart Torch: The smartest torch there is and ever will be”'],
+    typeSpeed: 50,
+    backSpeed: 0,
+    loop: true
+  });
+</script>
+
 </body>
 
 </html>
