@@ -807,6 +807,7 @@
         $(".prev span").text(y);
     });
 });
+		      
 
 
 var index=1;
@@ -830,7 +831,11 @@ function autoMove()
     }
 }
 </script>
-
+<script>
+    $(document).ready(function() {
+      $('.text1','.text2').hide().delay(3000).fadeIn(2200);
+});
+    </script>
 
 </body>
 
