@@ -838,11 +838,18 @@ function autoMove()
 });
     </script>
 <script>
-		      $(window).on('load',function() {
-    $('body').delay(10000)
-        .animate({'scrollTop': $('#productSec').offset().top
-        }, 500); 
-});
+	      
+	$(function() {
+  setTimeout(function() {
+    var jumpPos = $('#productSec').offset().top;
+    if($(document).scrollTop() <= jumpPos)
+      $('html, body').animate({
+        scrollTop: jumpPos
+      }, 1000);
+  }, 14000);
+});	      
+		      
+		      
 						 </script>
 </body>
 
