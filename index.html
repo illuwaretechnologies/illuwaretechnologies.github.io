@@ -29,7 +29,7 @@
 <body id="page-top" class="index">
 
     
-    <nav class="navbar navbar-fixed-top navbar-inverse" style="background-color:#2C3E50;" id="nav">
+    <!-- <nav class="navbar navbar-fixed-top navbar-inverse" style="background-color:#2C3E50;" id="nav">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand slide-section" href="#nav-above"><img src="img/logo2.png" id="mainLogo"></a>
@@ -54,10 +54,24 @@
           </ul>
         </div>
       </div>
-    </nav>
-    <div id="nav-above">
+    </nav> -->
+    <div class="container">
+        <span style="color: #fff;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#nav-above" style="margin-left:0px;margin-top: -30px;"><img src="img/logo2.png" id="mainLogo"></a>
+
+          <a href="#about" class="slide-section">About</a>
+          <a href="#productSec" class="slide-section">Products</a>
+          <a href="#contact" class="slide-section">Contact</a>
+        </div>
     </div>
+
+    <!-- <div id="nav-above">
+        
+    </div> -->
 
 
     <!-- Category Section -->
@@ -79,16 +93,17 @@
     </section> -->
 
     <section id="portfolio">
-        <div class="container">
-            <span class="text1" style="font-family:Montserrat,Helvetica,Arial,sans-serif;font-size:2.75em">
+        <div class="container" id="innerPort">
+            <span class="text1" style="font-family:Montserrat,Helvetica,Arial,sans-serif;font-size:2.75em;color: #fff;font-weight: 500;margin-top: 10px;">
 
                     <br>
             </span><br>
-            <span class="text2" style="font-weight:300;font-size:1.75em ;margin-top:20px;"> 
+            <span class="text2" style="font-weight:400;font-size:1.75em ;padding-top:60px;color: #CC6600;opacity: 1 !important;"> 
                 Introducing the “Smart Torch: The smartest torch there is and ever will be”
             </span>
         </div>
     </section>
+
     
 
 
@@ -98,9 +113,9 @@
                   <hr></div>
 <div class="container">
   
-   <div class="col-lg-3 imgDiv nav-tabs">
+   <div class="col-lg-3 imgDiv nav-tabs" style="z-index: 0;">
                         <a href="#Default">
-                        <img class="img-fluid main-img active" src="img/light3.jpg"></a>
+                        <img class="img-fluid main-img active" src="img/light3.jpg" style="z-index: 0;"></a>
 
 
                         
@@ -671,7 +686,7 @@
 
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" style="z-index: 0;">
         <div class="container">
             <div class="row">
                 <div class="text-center">
@@ -874,6 +889,15 @@ function autoMove()
         typeSpeed: 45
     });
 </script>  
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
 <!-- <script type="text/javascript">
     var typed5 = new Typed('.text1', {
     strings: ['ashish', '2 Some <strong>HTML</strong>', '3 Chars &times; &copy;'],
