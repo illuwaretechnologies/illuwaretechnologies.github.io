@@ -31,7 +31,11 @@ li{
     width: 0 !important; /*removes the scrollbar but still scrollable*/
     /* reference: http://stackoverflow.com/a/26500272/2259400 */
 }
-
+::-webkit-scrollbar{
+display:none;
+}
+ 
+ 
  
  #mainLogo{
  	height: 200px;
@@ -131,6 +135,11 @@ li{
 	height: 150px; 
 	margin-left: 20px; 
 	margin-bottom: 5px;
+}
+.prodTable{
+	height:400px;
+	overflow-y:scroll;
+	display:block;
 }
 .prodTable>tbody>tr>td>img{
 	margin-left: 20px;
