@@ -29,11 +29,11 @@
 <body id="page-top" class="index">
 
     
-    <nav class="navbar navbar-fixed-top navbar-inverse" style="" id="nav">
+     <nav class="navbar navbar-fixed-top navbar-inverse" style="" id="nav">
       <div class="container-fluid">
         <div class="navbar-header">
           <!-- <a class="navbar-brand slide-section" href="#nav-above"><img src="img/logo2.png" id="mainLogo"></a> -->
-          <a href=""><img src="img/logo2.png" id="mainLogo"></a>
+          <a href="#nav-above" class="slide-section"><img src="img/logo2.png" id="mainLogo"></a>
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -55,7 +55,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> 
     <!-- <div class="container">
         <span style="color: #fff;font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         
@@ -70,9 +70,10 @@
         </div>
     </div> -->
 
-    <!-- <div id="nav-above">
+     <div id="nav-above">
         
-    </div> -->
+    </div>
+    
 
 
     <!-- Category Section -->
@@ -761,7 +762,8 @@
                 </div>
                 
                 <div class="footer-col col-lg-3 col-md-6 col-sm-6 col-xs-12 footer-all footer-right">
-                    <h3>UPDATES</h3>
+                    <h3>UPDATES</h3> 
+                    <p>Sign up to get the latest on sales,releases and more...</p>
                     <form>
                         
                     </form>
@@ -881,7 +883,9 @@ function autoMove()
         typeSpeed: 45
     });
 </script>  
-<script>
+
+
+<!-- <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
 }
@@ -889,35 +893,20 @@ function openNav() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
-</script>
-<!-- <script type="text/javascript">
-    var typed5 = new Typed('.text1', {
-    strings: ['ashish', '2 Some <strong>HTML</strong>', '3 Chars &times; &copy;'],
-    typeSpeed: 0,
-    backSpeed: 0,
-    cursorChar: '_',
-    shuffle: true,
-    smartBackspace: false,
-    loop: true
-  });
 </script> -->
-<!-- <script type="text/javascript">
-    var typed3 = new Typed('.text1', {
-    strings: ['ashish','asshi'],
-    typeSpeed: 0,
-    backSpeed: 0,
-    smartBackspace: true, // this is a default
-    loop: true
-  });
+<!-- <script>
+    var dekh = document.getElementById("nav-above");
+    $(window).on('scroll', function () {
+        var scrollTop     = $(window).scrollTop(),
+        elementOffset = $('#my-element').offset().top,
+        distance      = (elementOffset - scrollTop);
+
+        if(scrollTop > 0){
+            dekh.style.display="none";
+        }
+        console.log(scrollTop);
 </script> -->
-<!-- <script type="text/javascript">
-    var typed6 = new Typed('.text2', {
-    strings: ['npm install^1000\n `installing components...` ^1000\n `Fetching from source...`','Introducing the “Smart Torch: The smartest torch there is and ever will be”'],
-    typeSpeed: 50,
-    backSpeed: 0,
-    loop: true
-  });
-</script> -->
+
 
 </body>
 
