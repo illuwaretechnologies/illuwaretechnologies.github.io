@@ -36,45 +36,51 @@ display:none;
 }
  
 
-/* menubar */
-
-.navbar-brand {
-    font-size: 24px;
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
 }
 
-.navbar-container {
-    padding: 20px 0 20px 0;
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
 }
 
-.navbar.navbar-fixed-top.fixed-theme {
-    background-color: #222;
-    border-color: #080808;
-    box-shadow: 0 0 5px rgba(0,0,0,.8);
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
 }
 
-.navbar-brand.fixed-theme {
-    font-size: 18px;
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
 }
 
-.navbar-container.fixed-theme {
-    padding: 0;
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 40px 12px;
+    
 }
 
-.navbar-brand.fixed-theme,
-.navbar-container.fixed-theme,
-.navbar.navbar-fixed-top.fixed-theme,
-.navbar-brand,
-.navbar-container{
-    transition: 0.8s;
-    -webkit-transition:  0.8s;
-}
+/* tab */
 
 
 
-
-/* menubar */
-
-
+/*.info-img{
+	background-image: url('../img/final5.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 200px;
+}*/
 
  
  

@@ -322,31 +322,127 @@
       <h4 style="color: #CC6600;"><b>Product Information</b></h4><br>
          
                   
+              <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'smart1')" id="defaultOpen" style="width: 33.33%;">Smart Flashlight 1.0</button>
+                <button class="tablinks" onclick="openCity(event, 'smart2')" style="width: 33.33%;">Smart Flashlight 2.0</button>
+                <button class="tablinks" onclick="openCity(event, 'smart3')" style="width: 33.33%;">Smart Flashlight 3.0</button>
+              </div>
+
+              <div id="smart1" class="tabcontent">
+                <h3 class="text-center">Smart Flashlight 1.0</h3>
+                <div class="row">
+                  <div class="col-xs-offset-3 col-xs-6" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">
+                    <div>
+                      <img src="img/final5.jpg" style="width: 100%;height: 250px;">
+                    </div>
+                    <div>
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Color</th>
+                            <td>Multi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Item Weight</th>
+                            <td>300 g</td>
+                          <tr>
+                            <th scope="row">Product Dimensions</th>
+                            <td>23.1 x 15.8 x 5.4 cm</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Primary Material</th>
+                            <td>Plastic</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="smart2" class="tabcontent">
+                <h3 class="text-center">Smart Flashlight 1.0</h3>
+                <div class="row">
+                  <div class="col-xs-offset-3 col-xs-6" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">
+                    <div>
+                      <img src="img/final9.jpg" style="width: 100%;height: 250px;">
+                    </div>
+                    <div>
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Color</th>
+                            <td>Red,Blue</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Item Weight</th>
+                            <td>400 g</td>
+                          <tr>
+                            <th scope="row">Product Dimensions</th>
+                            <td>23.1 x 15.8 x 5.4 cm</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Primary Material</th>
+                            <td>Plastic</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div id="smart3" class="tabcontent">
+                <h3 class="text-center">Smart Flashlight 1.0</h3>
+                <div class="row">
+                  <div class="col-xs-offset-3 col-xs-6" style="box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);">
+                    <div>
+                      <img src="img/final3.jpg" style="width: 100%;height: 250px;">
+                    </div>
+                    <div>
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row">Color</th>
+                            <td>Multi</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Item Weight</th>
+                            <td>300 g</td>
+                          <tr>
+                            <th scope="row">Product Dimensions</th>
+                            <td>23.1 x 15.8 x 5.4 cm</td>
+                          </tr>
+                          <tr>
+                            <th scope="row">Primary Material</th>
+                            <td>Plastic</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
                   
-                <table class="table table-striped">
-                  <thead>
-                    <tr>
-                      
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">Color</th>
-                      <td>Multi</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Item Weight</th>
-                      <td>300 g</td>
-                    <tr>
-                      <th scope="row">Product Dimensions</th>
-                      <td>23.1 x 15.8 x 5.4 cm</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Primary Material</th>
-                      <td>Plastic</td>
-                    </tr>
-                  </tbody>
-                </table>
+                
 
     </div>
     <div id="rating" class="col-lg-8 tab-pane fade">
@@ -711,6 +807,14 @@
         </div>
     </section>
 
+
+
+
+
+
+
+    
+
  
     <!-- Footer -->
 <footer class="text-center" >
@@ -795,6 +899,24 @@
  <script src="js/lightbox.js"></script> 
  <script src="js/typed.js"></script>
 <!--<script src="js/theme.js"></script>-->
+<script type="text/javascript">
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
 <script type="text/javascript">
     $(document).ready(function(){
         $('.slide-section').click(function(e){
