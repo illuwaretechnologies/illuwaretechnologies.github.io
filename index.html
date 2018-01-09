@@ -110,43 +110,28 @@
 
 
 <section id="productSec">
-    <div class="container main-name"><h1 class="product-name about1">SMART FLASHLIGHT 2.0</h1>
-                  
-                  <hr></div>
+    <div class="container main-name">
+      <h1 class="product-name about1">SMART FLASHLIGHT 2.0</h1>
+      <hr>
+    </div>
 <div class="container">
   
-   <div class="col-lg-3 imgDiv nav-tabs" style="z-index: 0;">
-                        <a href="#Default">
-                        <img class="img-fluid main-img active" src="img/light3.jpg" style="z-index: 0;"></a>
+       <div class="col-lg-3 imgDiv nav-tabs tab text-center" style="z-index: 0;">
+            <button class="tablinksfinal special" onclick="makeChange(event, 'first')" id="defaultOpenFinal">
+                <img class="img-fluid main-img active" src="img/light3.jpg" style="z-index: 0;">
+            </button>
+            <hr>
 
-
-                        
-                        <hr>
-                        
-                            <ul class="table table-hover" style="margin-left: -6px;" id="thistable1">
-                              
-                        
-                                <a href="#proinfo"><p class="listEdit">Product Information</p></a>
-                                <a href="#gallery"><p class="listEdit">Picture Gallery</p></a>
-                                <a href="#rating"><p class="listEdit">Reviews and Ratings</p></a>
-                                <a href="#faq"><p class="listEdit">Frequently Asked Questions</p></a>
-                                
-                                
-                            </ul>
-                                
-                             
-                           
-                            
-                            
-                        
-                        
-                        
-                        
-                    
-  </div>
-  <div class="col-lg-1">
-    
-  </div>
+            <ul class="table table-hover" id="thistable1">
+                <li><button class="tablinksfinal" onclick="makeChange(event, 'second')">Product Information</button></li>
+                <li><button class="tablinksfinal" onclick="makeChange(event, 'third')">Picture Gallery</button></li>
+                <li><button class="tablinksfinal" onclick="makeChange(event, 'fourth')">Reviews And Ratings</button></li>
+                <li><button class="tablinksfinal" onclick="makeChange(event, 'fifth')">FAQ's</button></li>
+            </ul>
+        </div>
+      <div class="col-lg-1">
+        
+      </div>
   
   
   
@@ -154,7 +139,7 @@
   
   
   <div class="tab-content">
-    <div id="Default" class="col-lg-8  tab-pane fade in active" style="overflow-x:auto;">
+    <div id="first" class="col-lg-8 tabcontentfinal" style="overflow-x:auto;">
        
 
                   <h4 style="color: #CC6600;">Product Description</h4><br>
@@ -174,14 +159,7 @@
                   
 
                         <table class="table prodTable">
-                          <!-- <thead class="thead-inverse">
-                            <tr>
-                              <th class="left">List of <br>Features</th>
-                              <th class="right">Smart <br>Flashlight 1.0</th>
-                              <th class="right">Smart <br>Flashlight 2.0</th>
-                              <th class="right">Smart <br>Flashlight 3.0</th>
-                            </tr>
-                          </thead> -->
+                          
                           <tbody>
                             <tr>
                                 <td class="left">GPS Enabled</td>
@@ -289,13 +267,7 @@
                                 <td class="right"><img src="img/check.png"></td>
                                 
                             </tr>
-                            <!-- <tr>
-                                <td class="left"></td>
-                                <td class="right"><a href="#" class="btn btn-success">Buy Now</a><br>&#x20b9; 3500</td>
-                                <td class="right"><a href="#" class="btn btn-success">Buy Now</a><br>&#x20b9; 7500</td>
-                                <td class="right"><a href="#" class="btn btn-success">Buy Now</a><br>&#x20b9; 12000</td>
-                                
-                            </tr> -->
+                            
                             
                           </tbody>
                         </table>
@@ -317,7 +289,7 @@
                   
     </div>
     
-    <div id="proinfo" class="col-lg-8 tab-pane fade">
+    <div id="second" class="col-lg-8 tabcontentfinal">
       
       <h4 style="color: #CC6600;"><b>Product Information</b></h4><br>
          
@@ -445,7 +417,7 @@
                 
 
     </div>
-    <div id="rating" class="col-lg-8 tab-pane fade">
+    <div id="fourth" class="col-lg-8 tabcontentfinal">
          
               <div class="prod">
                 
@@ -503,7 +475,7 @@
               </div>   
 
       </div>
-       <div id="faq" class="tab-pane fade col-lg-8">
+       <div id="fifth" class="col-lg-8 tabcontentfinal">
           
                   
                   
@@ -553,15 +525,9 @@
                       </div>
         </div>
         
-         <div id="gallery" class="col-lg-8 tab-pane fade">
+         <div id="third" class="col-lg-8 tabcontentfinal">
            
-                  <!-- <div class="diffAngle prodDiff">
-                      <div class=""><a href="img/light3.jpg" data-lightbox="gallery" data-title=""><img src="img/light3.jpg" class="img-thumbnail"></a></div>
-                      <div class=""><a href="img/light3.jpg" data-lightbox="gallery" data-title=""><img src="img/light3.jpg" class="img-thumbnail"></a></div>
-                      <div class=""><a href="img/light3.jpg" data-lightbox="gallery" data-title=""><img src="img/light3.jpg" class="img-thumbnail"></a></div>
-                      <div class=""><a href="img/light3.jpg" data-lightbox="gallery" data-title=""><img src="img/light3.jpg" class="img-thumbnail"></a></div>
-                         
-                  </div> -->
+                  
                   <div class="wrapper">
                     <div class="slide slide1">
                          
@@ -582,137 +548,7 @@
         </div> 
         
         
-        <div id="buy" class="col-lg-8 tab-pane fade" style="overflow-x:auto;">
-       
-        <table class="table prodTable">
- <tbody>
-                            <tr>                         
-						 <thead class="thead-inverse">
-                            <tr>
-                              <th> Features</th>
-                              <th>Basic<br>Torch</th>
-                              <th>Augmented<br>Torch</th>
-                              <th>Potential<br>torch</th>
-                            </tr>
-                          </thead>
-                         </tr>
-						 <tr>
-                                <td>GPS Enabled</td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>Manual Alert</td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                                
-                            </tr>
-                            <tr>
-                                <td>Manual Control of Intensity</td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>Paper Display(Status)*/<br>LCD with backlight</td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>WIFI Connectivity/<br>Sim Enabled</td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>Rechargeable Batteries</td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>Impact-Resistant Body</td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>HD Camera for<br>Surveillance</td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>Live Broadcast</td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>Miscellaneous Functions</td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>Heartbeat Sensors</td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>Steps Monitor</td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>Intelligent Lightening (Int-<br>ensity Control)</td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>Water-Proof,Dust-Proof</td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td>Night Vision Camera</td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/cancel.png"></td>
-                                <td class=""><img src="img/check.png"></td>
-                                
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td class=""><a href="#" class="btn btn-success">Buy Now</a><br>&#x20b9; 3500</td>
-                                <td class=""><a href="#" class="btn btn-success">Buy Now</a><br>&#x20b9; 7500</td>
-                                <td class=""><a href="#" class="btn btn-success">Buy Now</a><br>&#x20b9; 12000</td>
-                                
-                            </tr>
-                            
-                          </tbody>
-                        </table>
-        </div>
+        
         
         
         
@@ -899,6 +735,34 @@
  <script src="js/lightbox.js"></script> 
  <script src="js/typed.js"></script>
 <!--<script src="js/theme.js"></script>-->
+
+
+
+
+<script>
+  function makeChange(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontentfinal");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinksfinal");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+
+document.getElementById("defaultOpenFinal").click();
+</script>
+
+
+
+
+
+
 <script type="text/javascript">
   function openCity(evt, cityName) {
     var i, tabcontent, tablinks;
@@ -933,16 +797,16 @@ document.getElementById("defaultOpen").click();
     });
 
     $(document).ready(function(){
-    $(".nav-tabs a").click(function(){
-        $(this).tab('show');
+      $(".nav-tabs a").click(function(){
+          $(this).tab('show');
+      });
+      $('.nav-tabs a').on('shown.bs.tab', function(event){
+          var x = $(event.target).text();         // active tab
+          var y = $(event.relatedTarget).text();  // previous tab
+          $(".act span").text(x);
+          $(".prev span").text(y);
+      });
     });
-    $('.nav-tabs a').on('shown.bs.tab', function(event){
-        var x = $(event.target).text();         // active tab
-        var y = $(event.relatedTarget).text();  // previous tab
-        $(".act span").text(x);
-        $(".prev span").text(y);
-    });
-});
 		      
 
 
