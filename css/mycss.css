@@ -27,6 +27,55 @@ li{
 	list-style: none;
 }
 
+
+
+
+
+
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-container {
+    padding: 20px 0 20px 0;
+}
+
+.navbar.navbar-fixed-top.fixed-theme {
+    background-color: #2C3E50;
+    
+    box-shadow: 0 0 5px rgba(0,0,0,.8);
+}
+
+.navbar-brand.fixed-theme {
+    font-size: 18px;
+}
+
+.navbar-container.fixed-theme {
+    padding: 0;
+}
+
+.navbar-brand.fixed-theme,
+.navbar-container.fixed-theme,
+.navbar.navbar-fixed-top.fixed-theme,
+.navbar-brand,
+.navbar-container{
+    transition: 0.8s;
+    -webkit-transition:  0.8s;
+}
+.text-white{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
 .modal::-webkit-scrollbar {
     width: 0 !important; /*removes the scrollbar but still scrollable*/
     /* reference: http://stackoverflow.com/a/26500272/2259400 */
@@ -599,10 +648,6 @@ display:none;
 }
 .table th, .table td{
 	border-top: 0px !important;
-}
-.navbar-inverse{
-	background-color: none !important;
-	border-color: none !important;
 }
 
  /*
