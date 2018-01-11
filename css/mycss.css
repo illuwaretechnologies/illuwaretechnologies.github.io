@@ -89,6 +89,24 @@ li{
 
 
 
+
+
+
+
+/* Style the tab content */
+.tabcontentrev {
+    display: none;
+    padding: 6px 12px;
+    
+}
+
+
+
+
+
+
+
+
 .modal::-webkit-scrollbar {
     width: 0 !important; /*removes the scrollbar but still scrollable*/
     /* reference: http://stackoverflow.com/a/26500272/2259400 */
@@ -496,8 +514,8 @@ display:none;
 	color: #CC6600;
 	font-weight: 500;
 }
-.prod p{
-	font-size: inherit;
+.prod>div>div{
+	margin-top: 10px;
 }
 .feedback p{
 	font-size: inherit;
