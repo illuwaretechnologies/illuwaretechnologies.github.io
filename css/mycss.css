@@ -85,7 +85,9 @@ li{
 }
 
 
-
+.nav>li>a:focus{
+	 background-color:transparent !important;
+}
 
 
 
