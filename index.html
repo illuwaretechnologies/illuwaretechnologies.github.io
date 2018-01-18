@@ -118,6 +118,13 @@
         </div>
     </section>
 
+
+    
+
+
+
+    
+
     
 
 
@@ -508,7 +515,67 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row"><div class="col-lg-12"><button class="btn btn-warning pull-right">Write a Product Review</button></div></div>
+                    <div class="row"><div class="col-lg-12"><button class="btn btn-warning pull-right" data-toggle="modal" data-target="#myModal">Write a Product Review</button></div></div>
+
+
+
+                    <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button> -->
+
+                      <!-- Modal -->
+                      <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+                        
+                          <!-- Modal content-->
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">SMART FLASHLIGHT 1.0</h4>
+                            </div>
+                            <div class="modal-body">
+
+
+                                <div style="margin-left: 35%;">
+                                    <fieldset class="rating">
+                                    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                                </div>
+                              
+
+                                <div class="comment-form" style="">
+
+                                  <form class="form-inline">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Add your review."/>
+                                    </div>
+                                    <button type="button" class="btn btn-success customBtn" style="margin-top: 4px;">Add</button>
+                                  </form>
+
+                                </div>
+
+
+
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+
+
+
+
                     <div class="clearfix"></div>
                     <div class="row" style="margin-top: -5px;"><div class="col-lg-12"><p class="pull-right" style="font-weight: 500;font-size: 15px;">(46 Ratings)</p></div></div>
                     <div class="clearfix"></div>
@@ -623,7 +690,69 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row"><div class="col-lg-12"><button class="btn btn-warning pull-right">Write a Product Review</button></div></div>
+                    <div class="row"><div class="col-lg-12"><button class="btn btn-warning pull-right" data-toggle="modal" data-target="#myModal1">Write a Product Review</button></div></div>
+
+
+
+
+                        <!-- Modal -->
+                      <div class="modal fade" id="myModal1" role="dialog">
+                        <div class="modal-dialog">
+                        
+                          <!-- Modal content-->
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">SMART FLASHLIGHT 2.0</h4>
+                            </div>
+                            <div class="modal-body">
+
+
+                                <div style="margin-left: 35%;">
+                                    <fieldset class="rating">
+                                    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                                </div>
+                              
+
+                                <div class="comment-form" style="">
+
+                                  <form class="form-inline">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Add your review."/>
+                                    </div>
+                                    <button type="button" class="btn btn-success customBtn" style="margin-top: 4px;">Add</button>
+                                  </form>
+
+                                </div>
+
+
+
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+
+
+
+
+
+
+
                     <div class="clearfix"></div>
                     <div class="row" style="margin-top: -5px;"><div class="col-lg-12"><p class="pull-right" style="font-weight: 500;font-size: 15px;">(36 Ratings)</p></div></div>
                     <div class="clearfix"></div>
@@ -737,7 +866,67 @@
                         </div>
                       </div>
                     </div>
-                    <div class="row"><div class="col-lg-12"><button class="btn btn-warning pull-right">Write a Product Review</button></div></div>
+                    <div class="row"><div class="col-lg-12"><button class="btn btn-warning pull-right" data-toggle="modal" data-target="#myModal2">Write a Product Review</button></div></div>
+
+
+
+
+                        <!-- Modal -->
+                      <div class="modal fade" id="myModal2" role="dialog">
+                        <div class="modal-dialog">
+                        
+                          <!-- Modal content-->
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <button type="button" class="close" data-dismiss="modal">&times;</button>
+                              <h4 class="modal-title">SMART FLASHLIGHT 3.0</h4>
+                            </div>
+                            <div class="modal-body">
+
+
+                                <div style="margin-left: 35%;">
+                                    <fieldset class="rating">
+                                    <input type="radio" id="star5" name="rating" value="5" /><label class = "full" for="star5" title="Awesome - 5 stars"></label>
+                                    <input type="radio" id="star4half" name="rating" value="4 and a half" /><label class="half" for="star4half" title="Pretty good - 4.5 stars"></label>
+                                    <input type="radio" id="star4" name="rating" value="4" /><label class = "full" for="star4" title="Pretty good - 4 stars"></label>
+                                    <input type="radio" id="star3half" name="rating" value="3 and a half" /><label class="half" for="star3half" title="Meh - 3.5 stars"></label>
+                                    <input type="radio" id="star3" name="rating" value="3" /><label class = "full" for="star3" title="Meh - 3 stars"></label>
+                                    <input type="radio" id="star2half" name="rating" value="2 and a half" /><label class="half" for="star2half" title="Kinda bad - 2.5 stars"></label>
+                                    <input type="radio" id="star2" name="rating" value="2" /><label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
+                                    <input type="radio" id="star1half" name="rating" value="1 and a half" /><label class="half" for="star1half" title="Meh - 1.5 stars"></label>
+                                    <input type="radio" id="star1" name="rating" value="1" /><label class = "full" for="star1" title="Sucks big time - 1 star"></label>
+                                    <input type="radio" id="starhalf" name="rating" value="half" /><label class="half" for="starhalf" title="Sucks big time - 0.5 stars"></label>
+                                </fieldset>
+                                </div>
+                              
+
+                                <div class="comment-form" style="">
+
+                                  <form class="form-inline">
+                                    <div class="form-group">
+                                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Add your review."/>
+                                    </div>
+                                    <button type="button" class="btn btn-success customBtn" style="margin-top: 4px;">Add</button>
+                                  </form>
+
+                                </div>
+
+
+
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                          
+                        </div>
+                      </div>
+
+
+
+
+
+
                     <div class="clearfix"></div>
                     <div class="row" style="margin-top: -5px;"><div class="col-lg-12"><p class="pull-right" style="font-weight: 500;font-size: 15px;">(60 Ratings)</p></div></div>
                     <div class="clearfix"></div>
@@ -1330,6 +1519,8 @@ function closeNav() {
         }
         console.log(scrollTop);
 </script> -->
+
+
 
 <script type="text/javascript">
   function openwindow(){
